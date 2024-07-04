@@ -1,0 +1,6 @@
+@import url(./normalize.css);
+@import url(./card.css);
+
+.encabezado{
+    background-color:  #ddc454;
+}
