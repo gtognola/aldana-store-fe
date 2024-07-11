@@ -25,7 +25,7 @@
     margin: 8px 16px;
 }
 
-.card button {
+.card .btn {
     background-color: #ddc454;
     border: none;
     padding: 10px 20px;
@@ -35,6 +35,27 @@
     font-size: 16px;
 }
 
-.card button:hover {
+.card .btn:hover {
     background-color: #ffe46e;
+}
+
+.cards-container{
+    gap: 2em;
+    justify-content: center;
+}
+
+.card-img{
+    position: relative;
+}
+
+.new{
+    position: absolute;
+    right: 0px;
+    background-color: #ddc454;
+    border: 1px #ccc ;
+    border-radius: 25%;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
 }

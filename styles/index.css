@@ -1,6 +1,15 @@
 @import url(./normalize.css);
 @import url(./card.css);
 
-.encabezado{
-    background-color:  #ddc454;
+.header, .footer{
+    max-width: 100%;
+    background-color: #ddc454;
+}
+.footer-link {
+    list-style: none;
+    display: inline-flex;
+}
+.footer-link a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
 }
