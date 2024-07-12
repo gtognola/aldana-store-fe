@@ -1,5 +1,15 @@
 {
+  "name": "aldana-store-fe",
+  "version": "1.0.0",
+  "description": "https://startbootstrap.com/template/shop-homepage https://startbootstrap.com/template/shop-item",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "bootstrap-icons": "^1.11.3"
+    "express": "^4.19.2"
   }
 }
