@@ -1,61 +1,53 @@
-
-.card {
-    width: 250px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: white;
-    text-align: center;
+.product {
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background-color: white;
+	text-align: center;
 }
 
-.card img {
-    width: 100%;
-    height: auto;
+.product img {
+	width: 100%;
+	height: auto;
 }
 
-.card h2 {
-    font-size: 24px;
-    margin: 16px 0;
+.product h2 {
+	font-size: 24px;
+	margin: 16px 0;
 }
 
-.card p {
-    font-size: 18px;
-    color: #333;
-    margin: 8px 16px;
+.product p {
+	font-size: 18px;
+	color: #333;
+	margin: 8px 16px;
 }
 
-.card .btn {
-    background-color: #ddc454;
-    border: none;
-    padding: 10px 20px;
-    margin: 16px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
+.product .btn {
+	background-color: #ddc454;
+	border: none;
+	padding: 10px 20px;
+	margin: 16px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
 }
 
-.card .btn:hover {
-    background-color: #ffe46e;
+.product .btn:hover {
+	background-color: #ffe46e;
+}
+.card-img {
+	position: relative;
 }
 
-.cards-container{
-    gap: 2em;
-    justify-content: center;
-}
-
-.card-img{
-    position: relative;
-}
-
-.new{
-    position: absolute;
-    right: 0px;
-    background-color: #ddc454;
-    border: 1px #ccc ;
-    border-radius: 25%;
-    -webkit-border-radius: 25%;
-    -moz-border-radius: 25%;
-    -ms-border-radius: 25%;
-    -o-border-radius: 25%;
+.new {
+	position: absolute;
+	right: 0px;
+	background-color: #ddc454;
+	border: 1px #ccc;
+	border-radius: 25%;
+	-webkit-border-radius: 25%;
+	-moz-border-radius: 25%;
+	-ms-border-radius: 25%;
+	-o-border-radius: 25%;
 }
