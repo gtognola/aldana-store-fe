@@ -1,6 +1,7 @@
 "use client"
 import { useState, useEffect } from 'react'
 import  ProductDetail  from "../../../components/details";
+import  LoadingSpinner  from "../../../components/loading-spinner";
 
 export default function Page({ params }) {
 
@@ -22,7 +23,7 @@ export default function Page({ params }) {
                 console.log('Error:', error)
             })
     }, [])
-    if (isLoading) return <p>Cargando...</p>;
+    if (isLoading) return <LoadingSpinner />;
     return (
         <div className='container'>
 
