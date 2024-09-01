@@ -1,6 +1,6 @@
 "use client"
 import { useState, useEffect } from 'react'
-import ProductDetail from '/home/ftognola/aldana-store-fe/src/components/details'
+import  ProductDetail  from "../../../components/details";
 
 export default function Page({ params }) {
 
