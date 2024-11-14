@@ -5,32 +5,29 @@ export default function Footer() {
 			<ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
 				<li>
 					<a
-						as="a"
 						href="#"
-						color="blue-gray"
-						className="font-normal transition-colors hover:text-white focus:text-white"
+						className="rounded-md px-3 py-2 text-sm font-medium hover:text-white"
+						aria-current="page"
 					>
-						Inicio
+						INICIO
 					</a>
 				</li>
 				<li>
 					<a
-						as="a"
 						href="#"
-						color="blue-gray"
-						className="font-normal transition-colors hover:text-white focus:text-white"
+						className="rounded-md px-3 py-2 text-sm font-medium hover:text-white"
+						aria-current="page"
 					>
-						Nosotros
+						NOSOTROS
 					</a>
 				</li>
 				<li>
 					<a
-						as="a"
 						href="#"
-						color="blue-gray"
-						className="font-normal transition-colors hover:text-white focus:text-white"
+						className="rounded-md px-3 py-2 text-sm font-medium hover:text-white"
+						aria-current="page"
 					>
-						Contactanos
+						CONTACTANOS
 					</a>
 				</li>
 			</ul>
