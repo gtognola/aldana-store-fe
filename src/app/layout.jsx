@@ -21,7 +21,9 @@ export default function RootLayout({ children }) {
           </main>
         </div>
 
-        <Footer></Footer>
+        <div>
+          <Footer className="flex flex-col min-h-screen justify-between"></Footer>
+        </div>
       </body>
     </html>
   );

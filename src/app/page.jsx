@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Card from "../components/card";
 import LoadingSpinner from "@/components/loading-spinner";
-import { CarouselTransition } from "../components/carousel";
+import { CarouselWithArrows } from "../components/carousel";
 import { useState, useEffect } from 'react'
 
 export default function Home() {
@@ -33,8 +33,8 @@ export default function Home() {
 
 	return (
 		<div>
-			<div className="mt-5">
-				<CarouselTransition> </CarouselTransition>
+			<div className="mt-2">
+				<CarouselWithArrows> </CarouselWithArrows>
 			</div>
 
 			<div className="container mx-auto">
