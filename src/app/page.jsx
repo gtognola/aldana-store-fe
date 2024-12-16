@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import Card from "../components/card";
-import LoadingSpinner from "@/components/loading-spinner";
+// import LoadingSpinner from "@/components/loading-spinner";
 import { CarouselWithArrows } from "../components/carousel";
 import { useState, useEffect } from 'react'
 
@@ -38,7 +38,7 @@ export default function Home() {
 			</div>
 
 			<div className="container mx-auto">
-				{isLoading && <LoadingSpinner />}
+				{/* {isLoading && <LoadingSpinner />} */}
 				<div className="my-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
 					{products.map(
 						(product) => (

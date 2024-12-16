@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="w-full bg-orange-200 p-3">
+    <nav className="w-full bg-amber-200 p-3">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -32,10 +32,10 @@ export default function Navbar() {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex flex-shrink-0 items-center">
-              <div className="relative w-10 h-10">
+              <div className="relative w-20 h-10">
                 <Image
-                  src="/img/abeja-dibujo-navbar.jpg"
-                  alt="Your Company"
+                  src="/img/bee-5917610_1280.webp"
+                  alt="logo"
                   fill
                   style={{ objectFit: "contain" }}
                 />

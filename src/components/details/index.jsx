@@ -20,7 +20,7 @@ const ProductDetail = ({ product }) => {
           <p>{product.description}</p>
           <p>${product.price}</p>
           <div className="my-5">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <button className="bg-amber-300 hover:bg-amber-100 text-gray-700 font-bold py-2 px-4 rounded">
               Add to Cart
             </button>
           </div>

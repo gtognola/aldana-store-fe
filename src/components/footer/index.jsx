@@ -1,5 +1,5 @@
 export default function Footer() {
-	return <footer className="w-full bg-orange-300 p-8">
+	return <footer className="w-full bg-amber-300 p-8">
 		<div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 text-center md:justify-between">
 			<img src="https://docs.material-tailwind.com/img/logo-ct-dark.png" alt="logo-ct" className="w-10" />
 			<ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
